@@ -10,11 +10,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
 </head>
 
 <body class="bg-body font-poppins text-white pb-12">
     <header class="py-6 flex justify-between mx-auto items-center px-8 md:px-14 lg:md:px-24 w-full ">
-        <div class="text-lg font-bold">Ayat.amine</div>
+        <div class="text-lg font-bold">AyatAmine</div>
         <div class="hidden lg:flex space-x-8 items-center">
             <a href="#" class="text-selected-text">Home</a>
             <a href="#about">About</a>
@@ -24,7 +25,18 @@
             <a href="#hire"><button class="px-4 py-2 bg-theme font-bold">Hire Me</button></a>
         </div>
         <div class="lg:hidden">
-            <svg width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 17.5H0.25V14.6667H13V17.5ZM25.75 10.4167H0.25V7.58333H25.75V10.4167ZM25.75 3.33333H13V0.5H25.75V3.33333Z" fill="white"/></svg>
+            <svg onclick="switchMenu('open')" class="cursor-pointer" width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 17.5H0.25V14.6667H13V17.5ZM25.75 10.4167H0.25V7.58333H25.75V10.4167ZM25.75 3.33333H13V0.5H25.75V3.33333Z" fill="white"/>
+            </svg>
+            <div class="mobile-menu wrapper fixed h-full w-full top-0 left-0 z-10  bg-nav text-center  hidden transition-all duration-300 delay-150  ease-in-out ">
+                <svg onclick="switchMenu('close')" class="w-7 h-7 relative ml-auto right-14 top-5 cursor-pointer" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                <ul class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">My Works</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#hire">Hire Me</a></li>
+                </ul>
+            </div>
         </div>
     </header>
     <!-- home -->
@@ -73,7 +85,7 @@
                     </button>
                 </div>
             </div>
-            <img src="img/man.png " alt="back " class="w-3/4 mt-12 md:absolute right-0 -z-1 ">
+            <img src="img/man.png" alt="back " class="w-3/4 mt-12 md:absolute right-0 -z-1 ">
 
         </div>
     </div>
@@ -273,7 +285,7 @@
                 </div>
             </div>
             <h3 class="secondary-title ">My Skills</h3>
-            <div class="container grid grid-cols-1 md:grid-cols-2 gap-6 mt-8 ">
+            <div class="container grid grid-cols-1 md:grid-cols-2 gap-6 mt-8 p-8">
                 <div>
                     <div class="skill mb-6">
                         <div class="flex justify-between mb-1.5">
