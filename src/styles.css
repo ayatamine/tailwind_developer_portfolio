@@ -80,11 +80,6 @@ body {
     @apply fill-theme transition-colors ease-in-out duration-200 delay-150
 }
 
-.featured-img {
-    background: yellow;
-    position: relative;
-}
-
 .featured-img:hover:before {
     bottom: 1rem;
     right: 1rem;
