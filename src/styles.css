@@ -131,3 +131,7 @@ body {
 .mobile-menu.wrapper li>a:hover {
     @apply rounded-full py-1 px-4 scale-105 bg-theme transition-all duration-300 delay-150
 }
+
+body {
+    background-color: #222;
+}

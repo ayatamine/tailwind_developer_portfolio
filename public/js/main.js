@@ -1,3 +1,14 @@
+//Hide Loading Box (Preloader)
+function handlePreloader() {
+    let preloader = document.querySelector('#preloader');
+    window.addEventListener('load', (event) => {
+        setTimeout(() => {
+            preloader.style.display = 'none';
+        }, 5000);
+    });
+}
+// handlePreloader();
+
 function updateList() {
     const titles = [...document.querySelectorAll('h1, h2')].sort((a, b) => {
         return Math.abs(a.getBoundingClientRect().top) - Math.abs(b.getBoundingClientRect().top);
@@ -74,7 +85,6 @@ gsap.to([".resume-box .timeline"], {
         // ease: 'slow.easeInOut'
 });
 document.querySelectorAll('.skills-box .percentage').forEach(d => {
-    console.log(d.getAttribute('data-w'))
     gsap.to(d, {
         scrollTrigger: {
             trigger: ".skills-box",
