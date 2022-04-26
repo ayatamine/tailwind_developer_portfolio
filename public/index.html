@@ -26,12 +26,12 @@
 
 <body class="bg-body font-poppins text-white pb-12">
     <!-- Preloader -->
-    <div id="preloader" class="fixed top-0 left-0 w-full h-full bg-body z-20">
+    <!-- <div id="preloader" class="fixed top-0 left-0 w-full h-full bg-body z-20">
         <svg role="status" class="absolute top-1/2 left-1/2 h-8 w-8 animate-spin mr-2  fill-theme" viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M100 50.5908C100 78.2051 77.6142 100.591 50 100.591C22.3858 100.591 0 78.2051 0 50.5908C0 22.9766 22.3858 0.59082 50 0.59082C77.6142 0.59082 100 22.9766 100 50.5908ZM9.08144 50.5908C9.08144 73.1895 27.4013 91.5094 50 91.5094C72.5987 91.5094 90.9186 73.1895 90.9186 50.5908C90.9186 27.9921 72.5987 9.67226 50 9.67226C27.4013 9.67226 9.08144 27.9921 9.08144 50.5908Z" fill="currentColor"/>
             <path d="M93.9676 39.0409C96.393 38.4038 97.8624 35.9116 97.0079 33.5539C95.2932 28.8227 92.871 24.3692 89.8167 20.348C85.8452 15.1192 80.8826 10.7238 75.2124 7.41289C69.5422 4.10194 63.2754 1.94025 56.7698 1.05124C51.7666 0.367541 46.6976 0.446843 41.7345 1.27873C39.2613 1.69328 37.813 4.19778 38.4501 6.62326C39.0873 9.04874 41.5694 10.4717 44.0505 10.1071C47.8511 9.54855 51.7191 9.52689 55.5402 10.0491C60.8642 10.7766 65.9928 12.5457 70.6331 15.2552C75.2735 17.9648 79.3347 21.5619 82.5849 25.841C84.9175 28.9121 86.7997 32.2913 88.1811 35.8758C89.083 38.2158 91.5421 39.6781 93.9676 39.0409Z" fill="currentFill"/>
         </svg>
-    </div>
+    </div> -->
 
     <!-- Main Header -->
     <header class="py-6 flex justify-between mx-auto items-center px-8 md:px-14 lg:md:px-24 w-full ">
@@ -113,8 +113,8 @@
                 <!-- End Type Writer text -->
 
                 <!-- Hire Me Button -->
-                <div class="w-full flex justify-center md:justify-start ">
-                    <button id="view-works-btn" class=" px-8 py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3 ">
+                <a href="#work" class="w-full flex justify-center md:justify-start ">
+                    <button id="view-works-btn" class="px-3 py-2 md:px-8 md:py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3 ">
                         <div>
                             <svg width="22 " height="22 " viewBox="0 0 22 22 " fill="none " xmlns="http://www.w3.org/2000/svg ">
                                 <path d="M14.4375 11C14.4375 11.9117 14.0753 12.786 13.4307 13.4307C12.786 14.0753 11.9117 14.4375 11 14.4375C10.0883 14.4375 9.21398 14.0753 8.56932 13.4307C7.92466 12.786 7.5625 11.9117
@@ -126,13 +126,13 @@
                         </div>
                         <span>View my work.</span>
                     </button>
-                </div>
+                </a>
                 <!-- End Hire Me Button -->
 
             </div>
 
             <!-- Hero Image -->
-            <img src="img/man.png" alt="back " class="w-3/4 mt-12 md:absolute right-0 -z-1 ">
+            <img src="img/man.png" alt="back " class="w-3/4 mt-12 mx-auto md:absolute right-0 -z-1 ">
 
         </div>
     </section>
@@ -147,11 +147,11 @@
 
             <!-- About Me Content Block-->
             <div class="mt-16 grid grid-cols-1 gap-6 lg:gap-8 ">
-                <div class="w-full lg:flex flex-wrap lg:flex-nowrap p-8 justify-between mx-auto ">
+                <div class="w-full lg:flex flex-wrap lg:flex-nowrap md:p-8 justify-between mx-auto ">
 
                     <!-- About Me Image -->
-                    <div class="featured-img opacity-0 right-full shrink-0 w-3/5 lg:w-2/5 mx-auto lg:mx-0 mt-6 lg:h-screen-partial relative ">
-                        <img src="img/profile_picture.jpg " alt="blog image " class="h-48 w-full object-cover object-bottom lg:object-fill lg:h-full ">
+                    <div class="featured-img opacity-0 right-full shrink-0 w-3/5 lg:w-2/5 h-64 lg:h-3/4 mx-auto lg:mx-0 mt-6 lg:mt-16 relative  ">
+                        <img src="img/profile_picture.jpg " alt="blog image " class="h-full w-full object-cover object-top lg:object-fill">
                     </div>
 
                     <!-- About Me Caption -->
@@ -159,7 +159,7 @@
                         <div class=" my-2 ">
                             <span class="font-semibold text-base mr-2 text-theme ">Who am I?  </span>
                         </div>
-                        <h3 class="font-semibold text-2xl my-4 ">
+                        <h3 class="font-semibold text-lg lg:text-2xl my-4 ">
                             I'm Ayat Ahmed Amine , a visual UX/UI Designer and Web Developer & Instructor
                         </h3>
                         <p class="section-paragraph text-sm leading-loose ">
@@ -169,7 +169,7 @@
                         <hr class="border-nav ">
 
                         <!-- About Me Personal informations -->
-                        <div class="grid grid-cols-2 justify-between items-center my-2 ">
+                        <div class="grid grid-cols-1 md:grid-cols-2 justify-between items-start  my-2 ">
                             <div>
                                 <div class=" ">
                                     <span class="text-xs font-semibold mr-3 ">Name :</span>
@@ -184,10 +184,10 @@
                                     <span class="text-xs opacity-50 text-theme font-semibold ">amine@email.com</span>
                                 </div>
                             </div>
-                            <div>
+                            <div class="mt-2 md:mt-0">
                                 <div class=" ">
-                                    <span class="text-xs font-semibold mr-3 ">Phone :</span>
-                                    <span class="text-xs opacity-50 ">+2130500770077</span>
+                                    <span class="text-xs font-semibold mr-1 ">Phone :</span>
+                                    <span class="text-xs opacity-50 ">+213050077007</span>
                                 </div>
                                 <div class="mt-2 ">
                                     <span class="text-xs font-semibold mr-3 ">Country :</span>
@@ -202,12 +202,12 @@
                         </div>
 
                         <!-- About Me Social Contact -->
-                        <div class=" flex justify-start items-center gap-3 mt-5 ">
-                            <button class="px-3 py-2 bg-theme text-white text-xs font-light mr-5 animate-bounce">
+                        <div class=" flex justify-start items-center gap-3 mt-6 ">
+                            <button class="px-1 py-2 bg-theme text-white text-xs font-light mr-3 animate-bounce">
                                 <span>Download CV</span>
                             </button>
-                            <div class="w-14 border border-nav "> </div>
-                            <div class="flex justify-evenly items-center gap-2 ml-5 ">
+                            <div class="w-10 md:w-14 border border-nav "> </div>
+                            <div class="flex justify-evenly items-center gap-1 ml-3 ">
                                 <a href="#">
                                     <svg class="social-icon" xmlns="http://www.w3.org/2000/svg " x="0px " y="0px " width="30 " height="30 " viewBox="0 0 64 64 "><path d="M48,7H16c-4.418,0-8,3.582-8,8v32c0,4.418,3.582,8,8,8h17V38h-6v-7h6v-5c0-7,4-11,10-11c3.133,0,5,1,5,1v6h-4
                                       c-2.86,0-4,2.093-4,4v5h7l-1,7h-6v17h8c4.418,0,8-3.582,8-8V15C56,10.582,52.418,7,48,7z "></path></svg> </a>
@@ -242,7 +242,7 @@
             <!-- End About Me Content Block-->
 
             <!-- Education & Experience resume box -->
-            <div class="resume-box grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-10 mt-8  p-8">
+            <div class="resume-box grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-10 mt-8 p-2 md-p-8">
 
                 <!-- Education Content column -->
                 <div class="timeline opacity-0 translate-y-20">
@@ -371,7 +371,7 @@
         <h3 class="secondary-title ">My Skills</h3>
 
         <!-- Skills Box Content -->
-        <div class="skills-box container grid grid-cols-1 md:grid-cols-2 gap-6 mt-8 p-8">
+        <div class="skills-box container grid grid-cols-1 md:grid-cols-2 gap-6 mt-8 p-2">
 
             <!-- skills column-->
             <div>
@@ -468,17 +468,17 @@
 
             <!-- Filter Works buttons-->
             <div class="flex justify-center space-x-3 my-5 ">
-                <a class="filter-btn cursor-pointer active " id='all' onclick="filterSelection( 'all') "><span>All</span></a>
-                <a class="filter-btn cursor-pointer " id='design' onclick="filterSelection( 'design') "><span>Design</span></a>
-                <a class="filter-btn cursor-pointer " id='development' onclick="filterSelection( 'development') "><span>Development</span></a>
-                <a class="filter-btn cursor-pointer " id='freelance' onclick="filterSelection( 'freelance') "><span>Freelance</span></a>
+                <a class="filter-btn text-sm md:text-lg cursor-pointer active " id='all' onclick="filterSelection( 'all') "><span>All</span></a>
+                <a class="filter-btn text-sm md:text-lg cursor-pointer " id='design' onclick="filterSelection( 'design') "><span>Design</span></a>
+                <a class="filter-btn text-sm md:text-lg cursor-pointer " id='development' onclick="filterSelection( 'development') "><span>Development</span></a>
+                <a class="filter-btn text-sm md:text-lg cursor-pointer " id='freelance' onclick="filterSelection( 'freelance') "><span>Freelance</span></a>
             </div>
 
             <!-- Works Content -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-7 ">
 
                 <!-- Work Item Block -->
-                <div class=" work-item w-full h-52 rounded lg:h-72 px-8 md:px-0 object-cover translate-y-24 opacity-0 design ">
+                <div class=" work-item w-full h-56 rounded lg:h-72 px-8 md:px-0 object-cover translate-y-24 opacity-0 design ">
                     <div class=" group w-full h-full float-left overflow-hidden relative text-center cursor-default ">
                         <!-- Work Image -->
                         <img class="h-full block relative group-hover:scale-105 transition ease-in-out duration-200 " src="img/b1.png " alt=" ">
@@ -487,7 +487,7 @@
                         <div class="overlay pt-4 lg:pt-16 group-hover:h-full group-hover:visible ">
 
                             <!-- Work Title -->
-                            <h3 class="uppercase text-white text-center text-base font-bold px-1 -translate-x-full group-hover:translate-x-0 transition duration-300 ease-in-out delay-200 ">CoolDesign agency</h3>
+                            <h3 class="uppercase text-white text-center text-sm md:text-base font-bold px-1 -translate-x-full group-hover:translate-x-0 transition duration-300 ease-in-out delay-200 ">CoolDesign agency</h3>
 
                             <!-- Work details -->
                             <div class="uppercase text-white text-left my-6 px-8 translate-x-full group-hover:-translate-x-0 transition duration-300 ease-in-out delay-200 ">
@@ -732,7 +732,7 @@
                 <div class="w-full border-nav border-2 flex flex-wrap md:flex-nowrap p-8 justify-between items-center mx-auto scale-75 ">
                     <!-- Article Image -->
                     <a href="# " class=" max-h-48 md:w-3/5 md:h-40 lg:w-1/5 lg:h-36 ">
-                        <img src="img/b1.png " alt="blog image " class="w-full h-full object-fill rounded-sm hover:shadow-lg hover:shadow-nav scale-95 hover:scale-100 transition-transform duration-300 ease-in-out ">
+                        <img src="img/b1.png " alt="blog image " class="w-full h-full object-fill rounded-sm hover:shadow-md hover:shadow-theme scale-95 hover:scale-100 transition-transform duration-300 ease-in-out ">
                     </a>
                     <div class="caption flex-auto mt-8 md:mt-0 md:ml-6 ">
                         <!-- Article Category + date -->
@@ -741,7 +741,7 @@
                             <span class="posted-date font-light opacity-60 hover:opacity-100 text-base ml-1 ">25-04-2022</span>
                         </div>
                         <!-- Article Title -->
-                        <h3 class="article-title font-semibold text-2xl my-4 ">
+                        <h3 class="article-title font-semibold text-xl md:text-2xl my-4 hover:text-theme">
                             <a href="# ">Don't wait until you start bussiness.</a>
                         </h3>
                         <div class="article-statistics flex justify-between items-center my-2 ">
@@ -791,7 +791,7 @@
 
                     <!-- Article Image -->
                     <a href="# " class=" max-h-48 md:w-3/5 md:h-40 lg:w-1/5 lg:h-36 ">
-                        <img src="img/b2.jpg " alt="blog image " class="w-full h-full object-fill rounded-sm hover:shadow-lg hover:shadow-nav scale-95 hover:scale-100 transition-transform duration-300 ease-in-out ">
+                        <img src="img/b2.jpg " alt="blog image " class="w-full h-full object-fill rounded-sm hover:shadow-md hover:shadow-theme scale-95 hover:scale-100 transition-transform duration-300 ease-in-out ">
                     </a>
                     <div class="caption flex-auto mt-8 md:mt-0 md:ml-6 ">
                         <!-- Article Category + date -->
@@ -800,7 +800,7 @@
                             <span class="posted-date font-light opacity-60 hover:opacity-100 text-base ml-1 ">25-04-2022</span>
                         </div>
                         <!-- Article Title -->
-                        <h3 class="article-title font-semibold text-2xl my-4 ">
+                        <h3 class="article-title font-semibold text-xl md:text-2xl my-4 hover:text-theme">
                             <a href="# ">Don't wait until you start bussiness.</a>
                         </h3>
                         <div class="article-statistics flex justify-between items-center my-2 ">
@@ -850,7 +850,7 @@
 
                     <!-- Article Image -->
                     <a href="# " class=" max-h-48 md:w-3/5 md:h-40 lg:w-1/5 lg:h-36 ">
-                        <img src="img/b3.png " alt="blog image " class="w-full h-full object-fill rounded-sm hover:shadow-lg hover:shadow-nav scale-95 hover:scale-100 transition-transform duration-300 ease-in-out ">
+                        <img src="img/b3.png " alt="blog image " class="w-full h-full object-fill rounded-sm hover:shadow-md hover:shadow-theme scale-95 hover:scale-100 transition-transform duration-300 ease-in-out ">
                     </a>
                     <div class="caption flex-auto mt-8 md:mt-0 md:ml-6 ">
                         <!-- Article Category + date -->
@@ -859,7 +859,7 @@
                             <span class="posted-date font-light opacity-60 hover:opacity-100 text-base ml-1 ">25-04-2022</span>
                         </div>
                         <!-- Article Title -->
-                        <h3 class="article-title font-semibold text-2xl my-4 ">
+                        <h3 class="article-title font-semibold text-xl md:text-2xl my-4 hover:text-theme">
                             <a href="#">Don't wait until you start bussiness.</a>
                         </h3>
                         <div class="article-statistics flex justify-between items-center my-2 ">
