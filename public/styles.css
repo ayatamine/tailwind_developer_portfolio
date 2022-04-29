@@ -1,6 +1,24 @@
-/*
-! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com
-*/
+/* Bootcamp HTML Template */
+
+/************ TABLE OF CONTENTS ***************
+
+1.  Tailwind Settings
+2.  Global Settings / Social Icons / Mobile Menu
+3.  Home Section
+4.  About Section
+5.  Works Section
+
+**********************************************/
+
+/***
+
+====================================================================
+	Tailwind Settings
+====================================================================
+
+***/
+
+/* ! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com */
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -756,20 +774,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 0.5rem;
 }
 
-.mt-5 {
-  margin-top: 1.25rem;
+.mr-1 {
+  margin-right: 0.25rem;
 }
 
-.mr-5 {
-  margin-right: 1.25rem;
-}
-
-.ml-5 {
-  margin-left: 1.25rem;
-}
-
-.mt-8 {
-  margin-top: 2rem;
+.ml-3 {
+  margin-left: 0.75rem;
 }
 
 .mb-8 {
@@ -790,6 +800,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-24 {
   margin-top: 6rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .mb-6 {
@@ -832,6 +846,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 5rem;
 }
 
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mr-5 {
+  margin-right: 1.25rem;
+}
+
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
 .mt-64 {
   margin-top: 16rem;
 }
@@ -842,10 +868,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-4 {
   margin-bottom: 1rem;
-}
-
-.ml-3 {
-  margin-left: 0.75rem;
 }
 
 .mt-1 {
@@ -872,8 +894,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: -9rem;
 }
 
-.mr-1 {
-  margin-right: 0.25rem;
+.mt-14 {
+  margin-top: 3.5rem;
 }
 
 .box-border {
@@ -924,8 +946,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 1.75rem;
 }
 
-.h-48 {
-  height: 12rem;
+.h-64 {
+  height: 16rem;
 }
 
 .h-6 {
@@ -940,6 +962,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 0.5rem;
 }
 
+.h-56 {
+  height: 14rem;
+}
+
 .h-52 {
   height: 13rem;
 }
@@ -952,8 +978,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 1rem;
 }
 
-.h-56 {
-  height: 14rem;
+.h-48 {
+  height: 12rem;
 }
 
 .h-3 {
@@ -988,20 +1014,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 3rem;
 }
 
-.h-4\/5 {
-  height: 80%;
-}
-
-.h-3\/5 {
-  height: 60%;
-}
-
-.h-64 {
-  height: 16rem;
-}
-
 .max-h-48 {
   max-height: 12rem;
+}
+
+.max-h-52 {
+  max-height: 13rem;
+}
+
+.max-h-40 {
+  max-height: 10rem;
+}
+
+.max-h-60 {
+  max-height: 15rem;
 }
 
 .min-h-max {
@@ -1030,8 +1056,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 60%;
 }
 
-.w-14 {
-  width: 3.5rem;
+.w-10 {
+  width: 2.5rem;
 }
 
 .w-6 {
@@ -1042,12 +1068,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 1.25rem;
 }
 
-.w-10 {
-  width: 2.5rem;
-}
-
 .w-4 {
   width: 1rem;
+}
+
+.w-14 {
+  width: 3.5rem;
 }
 
 .w-3 {
@@ -1405,6 +1431,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 0.75rem;
 }
 
+.gap-1 {
+  gap: 0.25rem;
+}
+
 .gap-2 {
   gap: 0.5rem;
 }
@@ -1419,10 +1449,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .gap-5 {
   gap: 1.25rem;
-}
-
-.gap-1 {
-  gap: 0.25rem;
 }
 
 .space-x-8 > :not([hidden]) ~ :not([hidden]) {
@@ -1701,22 +1727,26 @@ Ensure the default browser behavior of the `hidden` attribute.
      object-fit: fill;
 }
 
-.object-bottom {
-  -o-object-position: bottom;
-     object-position: bottom;
-}
-
 .object-top {
   -o-object-position: top;
      object-position: top;
 }
 
-.p-8 {
-  padding: 2rem;
+.object-bottom {
+  -o-object-position: bottom;
+     object-position: bottom;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-8 {
+  padding: 2rem;
 }
 
 .p-1 {
@@ -1729,10 +1759,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .p-3 {
   padding: 0.75rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
 }
 
 .py-6 {
@@ -2170,6 +2196,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/***
+
+====================================================================
+	Global Settings
+====================================================================
+
+***/
+
 html,
 body {
   scroll-behavior: smooth;
@@ -2258,20 +2292,7 @@ body {
   height: 80vh;
 }
 
-.nav-dot {
-  transition: background 200ms, border-color 200ms;
-}
-
-.selected-circle {
-  --tw-border-opacity: 1;
-  border-color: rgb(63 63 255 / var(--tw-border-opacity));
-  --tw-bg-opacity: 1;
-  background-color: rgb(63 63 255 / var(--tw-bg-opacity));
-}
-
-.nav-dot:hover span {
-  opacity: 1;
-}
+/* Social Icons [facebook,twitter,linkedin,...] */
 
 .social-icon {
   cursor: pointer;
@@ -2295,70 +2316,7 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.featured-img:hover:before {
-  bottom: 1rem;
-  right: 1rem;
-}
-
-.featured-img:hover:after {
-  top: 1rem;
-  left: 1rem;
-}
-
-.featured-img:before, .featured-img:after {
-  position: absolute;
-  z-index: -10;
-  height: 100%;
-  width: 100%;
-  transition-property: all;
-  transition-duration: 300ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  --tw-content: '';
-  content: var(--tw-content);
-}
-
-/*
-@media(min-width:920px) {
-    .featured-img:before,
-    .featured-img:after {
-        @apply h-4/5
-    }
-} */
-
-.featured-img:before {
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAU0lEQVQoU43QMRYAEQwE0ExHyf3vqNxybF6wRIpNZ3whIL74UJDh4zNQpFWTSMOx9y0m0m6FdmDDBnc073QYIQqwweDxa5jR+Zru+gUNCvkPvrgDcCIgJ6cWP4UAAAAASUVORK5CYII=) repeat;
-  bottom: 0.75rem;
-  right: 0.75rem;
-}
-
-.featured-img:after {
-  top: 0.75rem;
-  left: 0.75rem;
-  --tw-bg-opacity: 1;
-  background-color: rgb(103 232 249 / var(--tw-bg-opacity));
-}
-
-.filter-btn.active {
-  --tw-text-opacity: 1;
-  color: rgb(63 63 255 / var(--tw-text-opacity));
-}
-
-.work-item .overlay {
-  visibility: hidden;
-  position: absolute;
-  left: 0px;
-  top: auto;
-  bottom: 0px;
-  width: 100%;
-  overflow: hidden;
-  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
-  --tw-bg-opacity: 0.95;
-  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
-  transition-duration: 300ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+/* Mobile Menu */
 
 .mobile-menu.wrapper li {
   margin-bottom: 1rem;
@@ -2384,8 +2342,116 @@ body {
   transition-duration: 300ms;
 }
 
-body {
-  background-color: #222;
+/***
+
+====================================================================
+	Home Section
+====================================================================
+
+ ***/
+
+/* Left Side Navigation */
+
+.nav-dot {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+}
+
+.selected-circle {
+  --tw-border-opacity: 1;
+  border-color: rgb(63 63 255 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(63 63 255 / var(--tw-bg-opacity));
+}
+
+.nav-dot:hover span {
+  opacity: 1;
+}
+
+/***
+
+====================================================================
+	About Section
+====================================================================
+
+ ***/
+
+.featured-img:hover:before {
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.featured-img:hover:after {
+  top: 1rem;
+  left: 1rem;
+}
+
+.featured-img:before, .featured-img:after {
+  position: absolute;
+  z-index: -10;
+  height: 100%;
+  width: 100%;
+  transition-property: all;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --tw-content: '';
+  content: var(--tw-content);
+}
+
+.featured-img:before {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAU0lEQVQoU43QMRYAEQwE0ExHyf3vqNxybF6wRIpNZ3whIL74UJDh4zNQpFWTSMOx9y0m0m6FdmDDBnc073QYIQqwweDxa5jR+Zru+gUNCvkPvrgDcCIgJ6cWP4UAAAAASUVORK5CYII=) repeat;
+  bottom: 0.75rem;
+  right: 0.75rem;
+}
+
+.featured-img:after {
+  top: 0.75rem;
+  left: 0.75rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(103 232 249 / var(--tw-bg-opacity));
+}
+
+.filter-btn.active>span {
+  border-radius: 0.125rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(63 63 255 / var(--tw-bg-opacity));
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+}
+
+/***
+
+====================================================================
+	Works Section
+====================================================================
+
+ ***/
+
+.work-item .overlay {
+  visibility: hidden;
+  position: absolute;
+  left: 0px;
+  top: auto;
+  bottom: 0px;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+  --tw-bg-opacity: 0.95;
+  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hover\:scale-125:hover {
@@ -2400,9 +2466,9 @@ body {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.hover\:text-theme:hover {
+.hover\:text-selected-text:hover {
   --tw-text-opacity: 1;
-  color: rgb(63 63 255 / var(--tw-text-opacity));
+  color: rgb(163 163 255 / var(--tw-text-opacity));
 }
 
 .hover\:opacity-100:hover {
@@ -2415,25 +2481,8 @@ body {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.hover\:shadow-lg:hover {
-  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.hover\:shadow-sm:hover {
-  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
 .hover\:shadow-theme:hover {
   --tw-shadow-color: #3F3FFF;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.hover\:shadow-nav:hover {
-  --tw-shadow-color: #404053;
   --tw-shadow: var(--tw-shadow-colored);
 }
 
@@ -2503,20 +2552,16 @@ body {
     margin-bottom: 9rem;
   }
 
-  .md\:mt-10 {
-    margin-top: 2.5rem;
-  }
-
   .md\:mt-0 {
     margin-top: 0px;
   }
 
-  .md\:ml-6 {
-    margin-left: 1.5rem;
+  .md\:mt-8 {
+    margin-top: 2rem;
   }
 
-  .md\:mt-20 {
-    margin-top: 5rem;
+  .md\:ml-6 {
+    margin-left: 1.5rem;
   }
 
   .md\:block {
@@ -2527,12 +2572,12 @@ body {
     height: 10rem;
   }
 
-  .md\:w-3\/5 {
-    width: 60%;
-  }
-
   .md\:w-14 {
     width: 3.5rem;
+  }
+
+  .md\:w-3\/5 {
+    width: 60%;
   }
 
   .md\:max-w-xl {
@@ -2594,14 +2639,14 @@ body {
     line-height: 1.5rem;
   }
 
-  .md\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
@@ -2619,6 +2664,10 @@ body {
     margin-left: 5rem;
   }
 
+  .lg\:mt-16 {
+    margin-top: 4rem;
+  }
+
   .lg\:mt-0 {
     margin-top: 0px;
   }
@@ -2631,22 +2680,6 @@ body {
     margin-left: 1.25rem;
   }
 
-  .lg\:mt-16 {
-    margin-top: 4rem;
-  }
-
-  .lg\:mt-1 {
-    margin-top: 0.25rem;
-  }
-
-  .lg\:mt-14 {
-    margin-top: 3.5rem;
-  }
-
-  .lg\:mt-20 {
-    margin-top: 5rem;
-  }
-
   .lg\:flex {
     display: flex;
   }
@@ -2655,12 +2688,8 @@ body {
     display: none;
   }
 
-  .lg\:h-5\/6 {
-    height: 83.333333%;
-  }
-
-  .lg\:h-full {
-    height: 100%;
+  .lg\:h-3\/4 {
+    height: 75%;
   }
 
   .lg\:h-72 {
@@ -2673,10 +2702,6 @@ body {
 
   .lg\:h-12 {
     height: 3rem;
-  }
-
-  .lg\:h-3\/4 {
-    height: 75%;
   }
 
   .lg\:w-4 {
@@ -2711,10 +2736,6 @@ body {
     flex-wrap: nowrap;
   }
 
-  .lg\:items-center {
-    align-items: center;
-  }
-
   .lg\:gap-8 {
     gap: 2rem;
   }
@@ -2736,11 +2757,6 @@ body {
   .lg\:object-fill {
     -o-object-fit: fill;
        object-fit: fill;
-  }
-
-  .lg\:object-bottom {
-    -o-object-position: bottom;
-       object-position: bottom;
   }
 
   .lg\:px-24 {
@@ -2772,14 +2788,14 @@ body {
     line-height: 2.5rem;
   }
 
-  .lg\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
   .lg\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .lg\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   @media (min-width: 768px) {
